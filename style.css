@@ -1,0 +1,220 @@
+@font-face {
+    font-family: CP_Bold;
+    src: url(fonts/ChakraPetch-Bold.ttf);
+}
+@font-face {
+    font-family: CP_Reg;
+    src: url(fonts/ChakraPetch-Regular.ttf);
+}
+@font-face {
+    font-family: SC_Reg;
+    src: url(fonts/SourceCodePro-Regular.ttf);
+}
+
+*
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: white;
+  }
+
+#header
+{
+    margin: 20px;
+}
+
+#mainlogo
+{
+    height: 40px;
+    width: 160px;
+    padding: 0px 0px 0px 0px; 
+
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+
+    background: var(--Red, #C73659);
+}
+
+#n3p
+{
+    padding: 0px 40px;
+
+    font-family: CP_Bold;
+    font-size: 40px;
+
+    color: white;
+}
+
+#logocontent
+{
+    height: 40px;
+    gap: 5px;
+    padding: 0px 5px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--Red, #C73659);
+}
+
+#mainlogo:hover
+{
+    width: 699px;
+}
+
+.logobutton
+{
+    padding: 0px 10px;
+    height: 30px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: CP_Reg;
+    font-size: 30px;
+
+    color: black;
+    background: white;
+
+    transition: 0.3s ease-in-out;
+}
+
+.logobutton:hover
+{
+    background: var(--Yellow, #FFAC41);
+}
+
+#header .button
+{
+    width: 200px;
+    height: 40px;
+
+    float: right;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: CP_Bold;
+    font-size: 25px;
+
+    transition: 0.3s ease-in-out;
+
+    color: black;
+    background: var(--Yellow, #FFAC41);
+}
+
+#header .button:hover
+{
+    color: white;
+    background: var(--Red, #C73659);
+}
+
+#optionbody
+{
+    margin: 20px 20px 0px 20px;
+    height: 88vh;
+    width: 1880px;
+
+    display: flex;
+    justify-content: space-between                                                                           ;
+}
+
+.mainoptions
+{
+    width: 460px;
+    height: 88vh;
+
+    display: flex;
+    align-items: flex-end;
+
+    transition: 0.5s ease-in-out;
+    filter: saturate(0);
+    background-size: auto 100%;
+    background-position: center;
+    
+    background-color: grey;
+}
+
+.optiontextbar
+{
+    width: 460px;
+    height: 0px;
+
+    overflow: hidden;
+
+    background-color: black;
+
+    transition: 0.3s ease-in-out;
+}
+
+.titletextbar
+{
+    font-family: CP_Bold;
+    font-size: 48px;
+}
+
+.desctextbar
+{
+    font-family: SC_Reg;
+    font-size:20px;
+}
+
+.mainoptions:hover
+{
+    background-size: auto 103%;
+    filter: saturate(1);
+}
+
+.mainoptions:hover .optiontextbar
+{
+    padding: 5px 15px;
+    color: white;
+    height: 98px;
+}
+
+#nikmain
+{
+    background-image: url(img/IMG_3408.JPG);
+}
+
+#photosmain
+{
+    background-image: url(img/IMG_8302.JPG);
+}
+
+#postersmain
+{
+    background-image: url(img/PP.png);
+}
+
+#projectsmain
+{
+    background-image: url(img/Code.png);
+}
