@@ -10,13 +10,34 @@
     font-family: SC_Reg;
     src: url(fonts/SourceCodePro-Regular.ttf);
 }
+@font-face {
+    font-family: SC_Bold;
+    src: url(fonts/SourceCodePro-Bold.ttf);
+}
+
+.header_text {
+    font-family: CP_Bold;
+}
+
+.body_text {
+    font-family: SC_Reg;
+}
+
+.body_text_bold {
+    font-family: SC_Bold;
+}
 
 *
 {
     padding: 0px 0px 0px 0px;
     margin: 0px;
+    position: relative;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 a:link {
     text-decoration: none;
@@ -138,7 +159,7 @@ a:link {
 
 #optionbody
 {
-    margin: 20px 20px 0px 20px;
+    margin: 0px 20px;
     height: 88vh;
     width: 1880px;
 
@@ -217,4 +238,57 @@ a:link {
 #projectsmain
 {
     background-image: url(img/Code.png);
+}
+
+.center_horizontal_container {
+    display: flex;
+    align-items: center;
+}
+
+.center_vertical_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    margin: 300px 50px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img img {
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.logos {
+    margin-top: 10px;
+    display: flex;
+    gap: 60px;
+}
+
+.logos img {
+    max-height: 100px;
+    width: auto;
 }
