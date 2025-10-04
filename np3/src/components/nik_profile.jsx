@@ -8,7 +8,6 @@ function NikProfile() {
     return(
         <motion.div className="center_horizontal_container" 
         style={{gap: "84px", margin: "205px"}}
-        initial={{ y: 500 }}
         animate={{ y: 0 }}
         transition={{ type: "spring"}}>
             <div className="profile-img">
